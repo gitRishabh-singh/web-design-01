@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Lexend Giga', sans-serif;
+    overflow: hidden;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+/*font-family: 'Lexend Giga', sans-serif;
+font-family: 'Abril Fatface', cursive;*/
+.container{
+    width: 750px;
+    height: 500px;
+    background-color: #fff;
+    margin: 6rem auto;
+    position: relative;
+    box-shadow: 50px 50px 15px #2F363F;
+    overflow: hidden;
+}
+.cover-img{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/bruce-mars-FWVMhUa_wbY-unsplash.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo{
+    position: absolute;
+    top: 0rem;
+    left: 5rem;
+    text-align: center;
+}
+.logo p{
+    color: #fff;
+    padding-top: 0px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+nav{
+    top: -1rem;
+    width: 100%;
+    position: absolute;
+    left: 333px;
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    display: block;
+    width: 100%;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    margin: 1rem;
+    color: #fff;
+    padding: 0.2rem;
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.side-bar{
+    width: 60px;
+    height: 500px;
+    background-color: #29323c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #485563;
+}
+.side-bar .bar{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    width: 20px;
+    height: 2px;
+    box-shadow: 0px 5px #fff,
+                0px 10px #fff;
+}
+.side-bar .icons{
+    position: absolute;
+    top: 410px;
+    left: 25px;
+    width: 4px;
+    height: 4px;
+    border: 2px solid #fff;
+    box-shadow: 0px 30px #fff,
+                0px 60px #fff;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+.content .first{
+    margin: 10rem 5rem;
+}
+.first .txt-1{
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.first .txt-1:after{
+    content: " ";
+    width: 145px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 205px;
+    left: 80px;
+}
+.first .txt-2{
+    font-size: 8px;
+    color: #fff;
+    width: 150px;
+    line-height: 12px;
+}
+.content .sec{
+    margin: 5rem 5rem;
+}
+.sec .txt-3{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.sec .txt-4{
+    font-size: 12px;
+    color: #fff;
+    width: 350px;
+    line-height: 20px;
+}
+.bottom-tab{
+    width: 690px ;
+    height: 90px;
+    background-color: #29323c;
+    position: absolute;
+    bottom: 0;
+    left: 61px;
+    display: flex;
+}
+.bottom-tab .txt-5{
+    margin-left: 10px;
+}
+.txt-5 h5{
+    font-size: 10px;
+    color: #fff;
+}
+.txt-5 p{
+    font-size: 8px;
+    color: #fff;
+    width: 150px;
+}
+.bottom-tab .txt-6{
+    font-size: 8px;
+    color: #fff;
+    width: 150px;
+    margin: 37px 30px;
+}
+.bottom-tab .txt-7{
+    width: 500px;
+}
+.txt-7{
+    display: flex;
+}
+.txt-7 .img-1{
+    width: 120px;
+    height: 90px;
+    background-position: center center;
+    background-size: cover;
+}
+.txt-7 h5{
+    font-size: 10px;
+    color: #fff;
+    margin: 15px 15px;
+}
+.txt-7 p{
+    font-size: 8px;
+    color: #fff;
+    margin: 40px -46.5px;
+    width: 200px;
+}
